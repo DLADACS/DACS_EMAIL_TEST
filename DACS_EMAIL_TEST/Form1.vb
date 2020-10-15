@@ -9,6 +9,7 @@
         dacsemail.EmailBCC = "chood@cna-consulting.com"
         dacsemail.EmailCC = "majianlord@gmail.com"
         dacsemail.EmailSubject = "This is a Test Email"
+        dacsemail.EmailAttachment()
         Dim task1 As DACS.Email.EmailStatus = Dacs1.SendEmail(dacsemail)
     End Sub
 End Class
